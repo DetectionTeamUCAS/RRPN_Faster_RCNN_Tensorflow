@@ -147,4 +147,4 @@ def get_horizen_minAreaRectangle(boxs, with_label=True):
         x_max = tf.reduce_max(x_list, axis=1)
         x_min = tf.reduce_min(x_list, axis=1)
 
-    return tf.transpose(tf.stack([x_min, y_min, x_max, y_max], axis=0))
+        return tf.transpose(tf.stack([x_min, y_min, x_max, y_max], axis=0))
